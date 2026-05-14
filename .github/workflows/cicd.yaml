@@ -1,0 +1,10 @@
+name: gha-1
+on: 
+  push
+jobs:
+  kalyanfirstjob:
+    runs-on: ubuntu-slim
+
+    steps:
+      - name: message
+        run: echo"this is kalyan first gha-1"
